@@ -1,0 +1,38 @@
+.call-options
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background: #F4F6F7
+    min-height: 70px
+    padding-left: 20px
+    padding-right: 20px
+    @media screen and (max-width:768px)
+        flex-wrap: wrap
+        
+            
+    button
+        padding: 10px 20px
+        color: #fff
+        border-radius: 5px
+        @media screen and (max-width:768px)
+            width: 214px!important
+            font-size: 12px
+            margin-bottom: 10px
+        svg
+            font-size: 16px
+            margin-left: 5px
+
+.main-patient-info
+    padding: 40px 30px
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 10px
+    @media screen and (max-width:1000px)
+        grid-template-columns: 1fr
+        place-items: center
+.disabled
+    opacity: 0.5
+    cursor: not-allowed
+    pointer-events: none
+    button
+        cursor: not-allowed

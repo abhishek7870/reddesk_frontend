@@ -1,0 +1,83 @@
+.call-details
+    height: 90%
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    .in-out,.middle,.bottom
+        display: flex
+        justify-content: space-between
+        align-items: center
+    .in, .out
+        display: flex
+        position: relative
+        justify-content: space-between
+        align-items: center
+        background: #EEEEEE
+        border: 1px solid #E6E6E6
+        width: 48%
+        div
+            text-align: center
+            padding: 5px 35px
+            font-size: 14px
+        button
+            background: #924A91
+            padding: 5px
+            @media screen and (max-width:1000px)
+                padding: 12px 10px
+    .middle
+        margin-top: 10px
+        padding-bottom: 30px
+        div
+            color: #fff
+            width: 30%
+            text-align: center
+            padding: 5px 10px
+            border-radius: 20px
+        border-bottom: 1px solid #E6E6E6
+    .bottom
+        text-align: center
+        button
+            background: #924A91
+            
+            width: 30%
+            padding: 20px 20px
+            margin: auto
+            border-radius: 5px
+            @media screen and (max-width:1000px)
+                padding: 15px
+        .positive,.appoint
+            position: relative
+
+            
+            
+.dropdown1
+    position: absolute
+    background: #fff
+    min-width: 180px
+    transition: all .2s ease
+    right: 0
+    color: black
+    font-weight: 300        
+    width: 140px
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2)
+    li
+        display: flex
+        justify-content: space-between      
+        padding: 10px 7px        
+        font-size: 16px
+        cursor: pointer
+        border-bottom: 1px solid #E6E6E6
+        &:hover
+            background: #F4F6F7
+        &:last-child
+            border-bottom: none
+            margin-bottom: none
+        span
+            display: block
+        .bold
+            font-weight: 700
+
+            
+            
+        
+    

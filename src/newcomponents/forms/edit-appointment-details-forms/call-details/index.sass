@@ -1,0 +1,27 @@
+.parted
+    display: flex
+    flex-direction: row!important
+    justify-content: space-between
+
+    .part-left, .part-right
+        border: 1px solid rgba(146,74,145,0.5)
+        background-color: #fff
+        padding: 0 15px
+        .form-elements
+            div
+                display: flex
+                span
+                    font-size: 14px
+                    margin-left: 5px
+                &:nth-child(1)
+                    flex: 1
+                &:nth-child(2)
+                    flex: .5
+    .part-left
+        flex: 1
+    .part-right
+        flex: .5
+        margin-left: 15px
+        
+
+    

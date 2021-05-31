@@ -1,0 +1,96 @@
+.main-left 
+  background: #924A91
+  color: #fff
+  @media screen and (min-width:1250px)
+    min-height: 100vh;
+
+
+.main-left .header 
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  margin: 5px 0;
+  margin-top: 0
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0 10px
+  a
+    display: flex
+    justify-content: center
+    align-items: center
+  svg
+    font-size: 32px
+    margin-right: 5px
+  .hamburger
+    display: none
+    @media screen and (max-width:1250px)
+      display: block
+      cursor: pointer
+      
+
+.main-left 
+  
+  .agent-report 
+    margin-top: 25px
+    max-width: 900px
+
+    @media screen and (max-width:1250px)
+        display: none
+        margin: 0 auto
+       
+  .active
+    display: block!important
+    
+    
+.agent-report 
+  .agent
+    margin-left: 30px;
+    @media screen and (max-width:1250px)
+      text-align: center
+
+.agent-report .agent-name 
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #cab57e;
+
+.agent-report .agent-time 
+  margin: 20px 0;
+  font-weight: 300;
+
+
+.agent-status 
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  padding: 5px 10px;
+  justify-content: center;
+  border-radius: 20px;
+  &:nth-child(2)
+    margin-left: 5px
+    cursor: pointer
+
+.agent-calls 
+  margin-top: 60px;
+  font-weight: 300;
+  margin-right: 20px;
+  margin-left: 10px
+
+.agent-calls div span 
+  display: block;
+
+.agent-calls div 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+.logout
+  border-top: 1px solid #fff
+  button
+    color: #fff
+    background: transparent
+    margin: 50px auto
+    font-size: 21px
+    padding: 5px 15px
+    
